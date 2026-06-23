@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-netconf-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: go-netconf-test
+  template:
+    metadata:
+      labels:
+        app: go-netconf-test
+    spec:
+      containers:
+      - name: go-netconf-test
+        image: netconf-test:latest
+        imagePullPolicy: IfNotPresent
+
+        envFrom:
+        - secretRef:
+            name: go-netconf-secret
