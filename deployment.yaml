@@ -2,6 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: go-netconf-test
+  namespace: default
+  labels:
+    app: go-netconf-test
 spec:
   replicas: 1
   selector:
@@ -15,7 +18,7 @@ spec:
       containers:
       - name: go-netconf-test
         image: netconf-test:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
 
         envFrom:
         - secretRef:
