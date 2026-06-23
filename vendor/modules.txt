@@ -1,0 +1,4 @@
+# nemith.io/netconf v0.0.4
+## explicit; go 1.24.10
+nemith.io/netconf
+nemith.io/netconf/transport

@@ -1,0 +1,8 @@
+github.com/carlmjohnson/be v0.25.2 h1:EPTT7qCF5xJjcgrV5yX/muP5HTqSJR2VOjO6O4l9cYE=
+github.com/carlmjohnson/be v0.25.2/go.mod h1:2P+bH/INocW7e411OYCCIwT3nnJneZyveVav0WBBM1U=
+golang.org/x/crypto v0.46.0 h1:cKRW/pmt1pKAfetfu+RCEvjvZkA9RimPbh7bhFjGVBU=
+golang.org/x/crypto v0.46.0/go.mod h1:Evb/oLKmMraqjZ2iQTwDwvCtJkczlDuTmdJXoZVzqU0=
+golang.org/x/sys v0.39.0 h1:CvCKL8MeisomCi6qNZ+wbb0DN9E5AATixKsvNtMoMFk=
+golang.org/x/sys v0.39.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
+nemith.io/netconf v0.0.4 h1:v1i05GAypUTYRrA1gwt6bZCWhDeDkB7sL7BO8JwkMWY=
+nemith.io/netconf v0.0.4/go.mod h1:VisEiVJJ+W4NgTZ4QPKJb70RttJN2Ky6vvxzs8X5Dpg=
