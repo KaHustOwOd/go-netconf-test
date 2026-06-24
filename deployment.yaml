@@ -17,8 +17,12 @@ spec:
     spec:
       containers:
       - name: go-netconf-test
-        image: netconf-test:latest
+        image: docker-registry:4000/netconf-test:latest
         imagePullPolicy: Always
+      
+        env:
+        - name: TZ
+          value: "Asia/Ho_Chi_Minh"
 
         envFrom:
         - secretRef:
