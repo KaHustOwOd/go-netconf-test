@@ -1,15 +1,16 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"log"
+	"log/slog"
 	"os"
 	"time"
-	"context"
 
-	gossh "golang.org/x/crypto/ssh"
-	"nemith.io/netconf"
-	ncssh "nemith.io/netconf/transport/ssh"
+	"netconf-test/internal/config"
+	"netconf-test/internal/netconfclient"
+	"netconf-test/internal/service"
 )
 
 func main() {

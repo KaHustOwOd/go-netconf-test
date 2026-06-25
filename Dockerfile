@@ -7,7 +7,7 @@ COPY go.mod go.sum ./
 
 COPY . .
 
-RUN CGO_ENABLED=0 GOOS=linux go build -o go-netconf-test .
+RUN CGO_ENABLED=0 GOOS=linux go build -o go-netconf-test ./cmd
 
 FROM alpine:3.20
 

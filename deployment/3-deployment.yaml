@@ -27,3 +27,5 @@ spec:
         envFrom:
         - secretRef:
             name: go-netconf-secret
+        - configMapRef:
+            name: go-netconf-configmap
