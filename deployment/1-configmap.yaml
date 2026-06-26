@@ -6,3 +6,5 @@ metadata:
 data:
   YANG_NAMESPACE: "http://yang.tech.vn/yang/1.1/vc/configuration/ims_v2/2.0"
   CONFIG_PATH: "vimsv2 sbc logic app_config overload_ram_threshold"
+  CONFIG_ACTION: "edit"
+  CONFIG_VALUE: "100"
